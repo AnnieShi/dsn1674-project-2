@@ -1,0 +1,50 @@
+html{
+	background-color: #ffffff;
+	font-family: "Noto Sans", sans-serif;
+	line-height: 1.5rem
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+	background-color: #e7001d;
+	padding: 0.5em 0em 0em 0em;
+	margin: 0;
+}
+
+h1 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 3rem;
+}
+
+h2 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 1em;
+}
+
+nav {
+	border-top: 2px solid #000000;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav ol {
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	display: inline-block;
+	background-color: #222222;
+	color: white;
+	text-decoration: none;
+	text-align: left;
+	padding: 1em 1em 1em 1em;
+	margin: 0;
+}
