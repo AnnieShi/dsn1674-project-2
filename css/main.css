@@ -1,7 +1,8 @@
 html{
 	background-color: #ffffff;
 	font-family: "Noto Sans", sans-serif;
-	line-height: 1.5rem
+	line-height: 1.5rem;
+	box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -20,6 +21,10 @@ h1 {
 	font-size: 3rem;
 }
 
+.medallion {
+	width: 150px;
+}
+
 h2 {
 	color: #ffffff;
 	text-align: center;
@@ -31,16 +36,18 @@ nav {
 }
 
 nav li {
-	display: inline-block;
+	float: left;
+	width: 50%;
 }
 
 nav ol {
 	margin: 0;
 	padding: 0;
+	list-style-type: none;
 }
 
 nav a {
-	display: inline-block;
+	display: block;
 	background-color: #222222;
 	color: white;
 	text-decoration: none;
