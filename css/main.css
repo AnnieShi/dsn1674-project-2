@@ -9,6 +9,11 @@ html{
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
 	background-color: #e7001d;
 	padding: 0.5em 0em 0em 0em;
@@ -19,6 +24,7 @@ h1 {
 	color: #ffffff;
 	text-align: center;
 	font-size: 3rem;
+	text-shadow: #222222 2px 4px 3px;
 }
 
 .medallion {
@@ -29,6 +35,7 @@ h2 {
 	color: #ffffff;
 	text-align: center;
 	font-size: 1em;
+	text-shadow: #222222 2px 4px 3px;
 }
 
 nav {
@@ -54,4 +61,99 @@ nav a {
 	text-align: left;
 	padding: 1em 1em 1em 1em;
 	margin: 0;
+}
+
+a:hover {
+	display: block;
+	background-color: #0000000;
+	color: white;
+}
+
+.banner {
+	display: block;
+	width: 100%;
+}
+
+h3 {
+	position: absolute;
+	left: 0;
+	bottom: -3em;
+	color: white;
+	font-style: italic;
+	text-shadow: #222222 2px 4px 3px;
+	font-size: 2em;
+	text-align: center;
+	width: 100%;
+}
+
+.div-yellow {
+	background-color: #e4c22a;
+	overflow: hidden;
+	margin: 0;
+}
+
+.h4-black {
+	font-style: bold;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.dragon-sym {
+	width: 40%;
+	float: left;
+}
+
+.dragon {
+	width: 40%;
+	float:right;
+}
+
+.figcaption-black {
+	color: #000000;
+	font-style: italic;
+	text-align: center;
+	clear: both;
+	padding: 0em 0em 1em 0em;
+}
+
+.div-charcoal {
+	background-color: #222222;
+	overflow: hidden;
+	margin: 0;
+}
+
+.h4-white {
+	color: white;
+		font-style: bold;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.goat-sym {
+	width: 40%;
+	float: left;
+}
+
+.goat {
+	width: 40%;
+	float:right;
+}
+
+
+.figcaption-white {
+	color: #ffffff;
+	font-style: italic;
+	text-align: center;
+	clear: both;
+	padding: 0em 0em 1em 0em;
+}
+
+
+
+footer {
+	background-color: #222222;
+	color: white;
+	text-align: center;
+	padding: 1em 0em 1em 0em;
+	width: 100%;
 }
