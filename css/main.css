@@ -74,6 +74,7 @@ a:hover {
 	width: 100%;
 }
 
+
 h3 {
 	position: absolute;
 	left: 0;
@@ -93,6 +94,7 @@ h3 {
 }
 
 .h4-black {
+	color: black;
 	font-style: bold;
 	font-size: 1.5em;
 	text-align: center;
@@ -124,19 +126,19 @@ h3 {
 
 .h4-white {
 	color: white;
-		font-style: bold;
+	font-style: bold;
 	font-size: 1.5em;
 	text-align: center;
 }
 
 .goat-sym {
 	width: 40%;
-	float: left;
+	float: right;
 }
 
 .goat {
 	width: 40%;
-	float:right;
+	float:left;
 }
 
 
@@ -148,6 +150,31 @@ h3 {
 	padding: 0em 0em 1em 0em;
 }
 
+.div-red {
+	background-color: #bc0017;
+	overflow: hidden;
+	margin: 0;
+}
+
+.rooster-sym {
+	width: 40%;
+	float: left;
+}
+
+.rooster {
+	width: 40%;
+	float:right;
+}
+
+.ox-sym {
+	width: 40%;
+	float: right;
+}
+
+.ox {
+	width: 40%;
+	float:left;
+}
 
 
 footer {
