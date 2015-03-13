@@ -31,6 +31,7 @@ h1 {
 }
 
 .medallion {
+	border: 1px solid blue;
 	width: 150px;
 }
 
@@ -53,13 +54,13 @@ nav li {
 nav ul {
 	margin: 0;
 	padding: 0;
+	background-color: #222222;
 	list-style-type: none;
 	overflow: hidden;
 }
 
 nav a {
 	display: block;
-	background-color: #222222;
 	color: white;
 	text-decoration: none;
 	text-align: left;
