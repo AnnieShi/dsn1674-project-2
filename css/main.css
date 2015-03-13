@@ -18,33 +18,31 @@ header {
 	background-color: #e7001d;
 	padding: 0.5em 0em 0em 0em;
 	margin: 0;
+	text-align: center;
 }
 
 h1 {
 	color: #ffffff;
-	text-align: center;
 	font-size: 3rem;
 	text-shadow: #222222 2px 4px 3px;
 	position: absolute;
-	margin-left: 40%;
 	z-index: 1000;
+	width: 100%;
 }
 
 .medallion {
 	width: 150px;
-	position: relative;
-	margin-left: 30%;
+
 }
 
 h2 {
 	color: #ffffff;
-	text-align: center;
 	font-size: 1em;
 	text-shadow: #222222 2px 4px 3px;
 	position: absolute;
-	margin-left: 36%;
 	top: 5rem;
 	z-index: 1000;
+	width: 100%;
 }
 
 nav {
@@ -60,6 +58,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	overflow: hidden;
 }
 
 nav a {
@@ -70,11 +69,11 @@ nav a {
 	text-align: left;
 	padding: 1em 1em 1em 1em;
 	margin: 0;
+	width: 100%;
 }
 
 a:hover {
 	display: inline-block;
-	width: 50%;
 	background-color: #000000;
 }
 
@@ -83,17 +82,24 @@ a:hover {
 	width: 100%;
 }
 
+.bannerwrap {
+	position: relative;
+}
 
 h3 {
 	position: absolute;
 	left: 0;
-	top: 13em;
+	bottom: 1em;
 	color: white;
 	font-style: italic;
 	text-shadow: #222222 2px 4px 3px;
 	font-size: 2em;
 	text-align: center;
 	width: 100%;
+}
+
+p {
+	padding: 0em 0.5em 0em 0.5em;
 }
 
 .div-yellow {
@@ -185,12 +191,13 @@ h3 {
 	float:left;
 }
 
-
-.navfooter {
-	background-color: #222222;
-	color: white;
+footer {
 	text-align: center;
-	padding: 1em 0em 1em 0em;
-	width: 100%;
-	border: 0;
+	background-color: #222222;
+	padding: 2em 0em 2em 0em;
+
+}
+.navfooter {
+	color: white;
+	text-decoration: underline;
 }
