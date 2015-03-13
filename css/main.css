@@ -47,16 +47,12 @@ h2 {
 nav li {
 	float: left;
 	width: 50%;
-	border-bottom: 1px solid #000000;
-	border-top: 1px solid #000000;
-	border-left: 1px solid #000000;
-	border-right: 1px solid #000000;
+	border: 1px solid #000000;
 }
 
 nav ul {
 	margin: 0;
 	padding: 0;
-
 	list-style-type: none;
 	overflow: hidden;
 }
@@ -110,7 +106,7 @@ p {
 
 .h4-black {
 	color: black;
-	font-style: bold;
+	font-weight: bold;
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -141,7 +137,7 @@ p {
 
 .h4-white {
 	color: white;
-	font-style: bold;
+	font-weight: bold;
 	font-size: 1.5em;
 	text-align: center;
 }
